@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/estilo.css">
+</head>
+
+<body>
+    <main class="pagina">
+        <div class="leftcol">
+            <h1 class="logo"><a href="#">Teste <span>Tray</span></a></h1>
+            <div class="menu">
+                <ul class="none">
+                    <li>
+                        <a href="./../../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./cadastroVendedor.html">Cadastro de vendedor</a>
+                    </li>
+                    <li>
+                        <a href="./listarVendedores.html">Listagem de vendedores</a>
+                    </li>
+                    <li>
+                        <a href="./cadastroVenda.html">Cadastro de venda</a>
+                    </li>
+                    <li>
+                        <a href="./listarVendas.html">Listagem de vendas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightcol">
+            <div class="topo">
+                <div class="textotopo">
+                    <h1>Programador PHP II - Marlon</h1>
+                </div>
+            </div>
+            <div class="conteudo">
+                <h2>Listagem de vendas</h2>
+                <select name="vendas" id="selectVendedor">
+                    <option hidden disabled selected value> Escolha o vendedor pelo ID </option>
+                </select>
+                <hr>
+                <ul id="listaVendas" class="none">
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+<script src="../js/listarVendas/listarVendas.js"></script>
+<script src="../js/util/ajax.js"></script>
+<script src="../js/listarVendas/logica.js"></script>
+<script src="../js/listarVendas/tela.js"></script>
+
+</html>

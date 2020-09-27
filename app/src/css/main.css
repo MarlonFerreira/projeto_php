@@ -1,0 +1,58 @@
+.leftcol {
+	width: 224px;
+	float: left;
+}
+
+.rightcol {
+	width: 75%;
+	float: left;
+}
+@media screen and (max-width: 894px) {
+	.rightcol {
+		width: 100%;
+	}
+}
+  
+
+h1.logo {
+	margin: 0 0 0 0;
+}
+
+.logo a {
+	display: block;
+	height: 72px;
+	line-height: 72px;
+	font-size: 25px;
+	color: #000;
+	font-family: "Trebuchet MS";
+	text-transform: uppercase;
+	padding: 0 20px;
+}
+
+.logo a span {
+	color: #2006b3;
+}
+
+.menu {
+	padding: 8px 19px;
+}
+
+.topo {
+	background: #000000;
+	height: 72px;
+	width:100%;
+}
+
+.textotopo {
+	width: 450px;
+	height: 31px;
+	float: left;
+	color: #ffffff;
+	margin-top: 25px;
+	text-indent: 20px;
+}
+
+.conteudo {
+	border-top: solid 10px #000000;
+	padding: 16px;
+}

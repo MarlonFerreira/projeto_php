@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/estilo.css">
+</head>
+
+<body>
+    <main class="pagina">
+        <div class="leftcol">
+            <h1 class="logo"><a href="#">Teste <span>Tray</span></a></h1>
+            <div class="menu">
+                <ul class="none">
+                    <li>
+                        <a href="./../../index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./cadastroVendedor.html">Cadastro de vendedor</a>
+                    </li>
+                    <li>
+                        <a href="./listarVendedores.html">Listagem de vendedores</a>
+                    </li>
+                    <li>
+                        <a href="./cadastroVenda.html">Cadastro de venda</a>
+                    </li>
+                    <li>
+                        <a href="./listarVendas.html">Listagem de vendas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="rightcol">
+            <div class="topo">
+                <div class="textotopo">
+                    <h1>Programador PHP II - Marlon</h1>
+                </div>
+            </div>
+            <div class="conteudo">
+                <h2>Cadastro de venda</h2>
+                <form class="formulario">
+
+                    <select name="vendas" id="selectVendedor">
+                        <option hidden disabled selected value> Escolha o vendedor pelo ID </option>
+                    </select>
+                    <br>
+                    <label for="valor">Valor da venda: </label><br>
+                    <input type="number" step="0.01" name="valor" id="inputValorVenda" placeholder="Valor da venda">
+                    <br>
+                    <input id="inputCadastrarVenda" type="submit" value="Cadastrar">
+                </form>
+            </div>
+            <hr>
+            <ul id="ulResultado" class="none">
+            </ul>
+        </div>
+    </main>
+</body>
+
+<script src="../js/cadastroVenda/cadastrarVenda.js" async></script>
+<script src="../js/util/ajax.js" async></script>
+<script src="../js/cadastroVenda/logica.js" async></script>
+<script src="../js/cadastroVenda/tela.js" async></script>
+
+</html>

@@ -1,0 +1,36 @@
+a { text-decoration: none; color: #ea4800;}
+
+a:hover {
+	cursor: pointer; 
+	color: #000;
+	text-decoration: underline;
+}
+
+body {
+	font-family: Arial, Tahoma, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000;
+	line-height: 150%;
+}
+
+h1, h2, h3, h4, h5 {
+	font-weight: normal;
+	font-family: Tahoma;
+}
+
+h1 { font-size: 1.4em; }
+
+h1, h2, h3, h4, h5, p, ul { margin: 0 0 10px 0; }
+
+h2 { font-size: 1.6em; }
+
+h3 { font-size: 1.4em; }
+
+h4 { font-size: 1.2em; text-transform: uppercase; }
+
+ul li { margin-left: 15px; margin-bottom: 5px; }
+
+ul.none li {
+	list-style-type: none;
+	margin-left: 0;
+}
