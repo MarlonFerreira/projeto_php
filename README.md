@@ -8,4 +8,4 @@ Banco de dados desenvolvido em MySQL ->
 Servidor - 'localhost' |
 Usuario - 'root' |
 Senha - 'marlon' |
-BadeDados - 'teste'
+Bade de dados - 'teste'
