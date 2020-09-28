@@ -5,7 +5,7 @@ Aplicação desenvolvida em JavaScript ->
 Consumindo API localhost:8083
 
 Banco de dados - MySQL ->
-Servidor - 'localhost'
-Usuario - 'root'
-Senha - 'marlon'
+Servidor - 'localhost' |
+Usuario - 'root' |
+Senha - 'marlon' |
 BadeDados - 'teste'
