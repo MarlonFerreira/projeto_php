@@ -4,7 +4,7 @@ Executada em localhost:8083
 Aplicação desenvolvida em JavaScript ->
 Consumindo API localhost:8083
 
-Banco de dados - MySQL ->
+Banco de dados desenvolvido em MySQL ->
 Servidor - 'localhost' |
 Usuario - 'root' |
 Senha - 'marlon' |
